@@ -1,0 +1,26 @@
+.principal {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.principal__img {
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.principal__texto {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.principal__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--cor-preto);
+}
+
+.principal__descricao {
+    color: var(--cor-cinza);
+}
